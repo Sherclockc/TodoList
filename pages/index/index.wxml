@@ -1,0 +1,32 @@
+<view class="container {{theme}}">
+  <!-- 明暗主题切换 -->
+  <button class="theme-btn" bindtap="toggleTheme">
+    {{theme === 'dark' ? '🌙 夜间模式' : '☀️ 日间模式'}}
+  </button>
+
+  <!-- 输入框 -->
+  <view class="input-box">
+    <input placeholder="请输入任务..." bindinput="onInput" value="{{newTask}}" confirm-type="done" bindconfirm="addTask" />
+    <button class="add-btn" bindtap="addTask">添加</button>
+  </view>
+
+  <!-- 筛选 -->
+  <view class="filters">
+    <button wx:for="{{filters}}" wx:key="filter" data-filter="{{item}}" class="{{filter === item ? 'active' : ''}}" bindtap="setFilter">
+      {{item}}
+    </button>
+  </view>
+
+  <!-- 列表 -->
+  <view wx:if="{{displayTasks.length}}">
+    <block wx:for="{{displayTasks}}" wx:key="id">
+      <view class="task {{item.completed ? 'done' : ''}} {{item.deleting ? 'fade-out' : ''}}">
+        <text data-id="{{item.id}}" bindtap="toggleTask">{{item.text}}</text>
+        <button class="del-btn" data-id="{{item.id}}" bindtap="deleteTask">删除</button>
+      </view>
+    </block>
+  </view>
+
+  <!-- 空状态 -->
+  <view wx:else class="empty">暂无任务</view>
+</view>

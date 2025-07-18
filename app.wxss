@@ -1,0 +1,20 @@
+/* app.wxss */
+@import './common/main.wxss';
+
+[data-custom-hidden="true"],[bind-data-custom-hidden="true"]{display: none !important;}
+/* 日间模式 */
+.container.light {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --task-bg: #f5f5f5;
+  --active-color: #007aff;
+  --input-bg: #ffffff;
+}
+/* 夜间模式 */
+.container.dark {
+  --bg-color: #1e1e1e;
+  --text-color: #eeeeee;
+  --task-bg: #2c2c2c;
+  --active-color: #66ccff;
+  --input-bg: #3a3a3a;
+}
