@@ -41,19 +41,20 @@
 
 日间模式/夜间模式：
 
-<img width="388" height="408" alt="image" src="https://github.com/user-attachments/assets/6d614e24-ed4d-455e-9d85-9eb2af270bf9" />
-<img width="378" height="411" alt="image" src="https://github.com/user-attachments/assets/09f7f88a-f933-4e8f-a143-7d13052c6411" />
+<img width="388" height="408" alt="image" src="https://github.com/user-attachments/assets/6a673145-28fe-4e95-8fee-8b7ed32c73b7" />
+<img width="378" height="411" alt="image" src="https://github.com/user-attachments/assets/45919cbd-cb38-4e49-91ff-3bcf98490b56" />
 
 
   添加任务1后，未完成之前都会在active显示：
 
-<img width="380" height="348" alt="image" src="https://github.com/user-attachments/assets/e4e9296e-72f9-4a63-a839-3534b0e7d7c5" />
-<img width="405" height="359" alt="image" src="https://github.com/user-attachments/assets/a12d9d87-960d-4692-a829-858bfbe6eef2" />
+<img width="380" height="348" alt="image" src="https://github.com/user-attachments/assets/6fe0536a-c1be-4b8b-a9af-c50a2d891eba" />
+<img width="405" height="359" alt="image" src="https://github.com/user-attachments/assets/7eb307c0-c8f5-4789-876b-41e8dac65336" />
+
 
 
   完成任务1后，点击本身：
+<img width="329" height="386" alt="image" src="https://github.com/user-attachments/assets/fd6a9477-d33f-4748-9978-7ba24cd214f1" />
+<img width="370" height="354" alt="image" src="https://github.com/user-attachments/assets/19e4b9ab-804e-4f49-ba1c-0a020b2a815b" />
 
- <img width="329" height="386" alt="image" src="https://github.com/user-attachments/assets/63ddb882-c743-4a49-873a-533b63aa87ce" />
-<img width="370" height="354" alt="image" src="https://github.com/user-attachments/assets/90655d61-c669-415b-8051-e006af644b8f" />
 
 
